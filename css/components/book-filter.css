@@ -1,0 +1,17 @@
+.book-filter{
+    background-color:rgb(177, 152, 110);
+    background-image: url("/patterns/wood-pattern.png");
+    width: fit-content;
+    padding: 10px;
+    border: 2px groove rgb(116, 58, 34);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.book-filter input{
+    width: 270px;
+    height: 5vh;
+    border-radius: 5px;
+    padding: 10px;
+}

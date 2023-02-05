@@ -1,0 +1,13 @@
+.sale {
+    position: relative;
+    display:inline-block;
+    background: orange;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    transform: rotate(-20deg);
+    animation: beat 1s ease infinite alternate;
+}
+

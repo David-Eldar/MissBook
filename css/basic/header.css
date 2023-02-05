@@ -1,0 +1,27 @@
+.header-container {
+    width: 100%;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-bar {
+    position:static;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.logo {
+    position: relative;
+    font-family: cursive;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+
+
+
+

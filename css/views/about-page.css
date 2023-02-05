@@ -1,0 +1,7 @@
+.about-page{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    gap: 20px;
+}

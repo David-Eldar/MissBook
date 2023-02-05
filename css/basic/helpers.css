@@ -1,0 +1,15 @@
+li {
+    all:unset
+}
+
+img {
+    width: 150px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.app-main{
+    padding: 20px;
+    min-height: 80vh;
+    background-color:#E0D0B5;
+}

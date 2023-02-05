@@ -1,0 +1,41 @@
+.reviews{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.review-form {
+    margin-top: 40px;
+}
+.review-form h1{
+    font-size: medium;
+}
+
+
+.starRate{
+    cursor: pointer;
+}
+
+
+.star{
+    color: gold;
+}
+
+.review-list{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.review-preview{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    gap: 5px;
+}

@@ -1,0 +1,28 @@
+.user-msg{
+    display:flex ;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    background-color: lightgreen;
+    padding: 10px;
+    max-width: 200px;
+    gap: 15px;
+}
+.user-msg button{
+    cursor: pointer;
+    background-color: rgba(245, 222, 179, 0);
+}
+.msg-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.success {
+    background-color: greenyellow;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}

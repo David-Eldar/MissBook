@@ -1,0 +1,53 @@
+.book-preview-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-style:initial;
+}
+
+.book-card{
+    padding: 5px;
+    margin: 15px;
+    width: 10em;
+    background-color: rgb(32, 152, 162);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    border: 5px groove rgb(116, 58, 34);
+    border-radius: 10px;
+}
+
+.title {
+    font-size: large;
+    font-weight:900;
+    text-align: center;
+}
+
+.authors{
+    font-size: medium;
+    font-weight: lighter
+}
+
+.book-preview-container img{
+    cursor: pointer
+}
+.book-card button{
+    background-color :rgba(32, 166, 178, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer
+}
+
+.book-preview-container .red{
+    color: red ;
+}
+.book-preview-container .green{
+    color: rgb(35, 215, 35) ;
+}
+
+
+

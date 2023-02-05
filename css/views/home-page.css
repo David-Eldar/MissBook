@@ -1,0 +1,15 @@
+.home-page {
+ background-image: url("/img/home-page.jpeg");
+ background-size:cover;
+ 
+}
+.home-text-box{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 25px;
+}
+.home-text-box h1{
+    font-size: xx-large;
+    margin-top: 40px;
+}
